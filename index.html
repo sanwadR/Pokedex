@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="PokeDex">
+      <h1 class="TitleClass">Pokémon Pokédex</h1>
+      <div>
+        <input type="text" id="MyInput" placeholder="Enter Pokemon Name" />
+      </div>
+      <div class="btnContainer">
+        <button type="button" id="searchbtn" onclick="DisplayPokemon()">
+          Search Pokemon
+        </button>
+      </div>
+      <div id="Pokemon"></div>
+      <div class="ImageContainer">
+        <img
+          id="pokemonImage"
+          src="Poké_Ball_icon.svg.png"
+          alt="Pokemon Image"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

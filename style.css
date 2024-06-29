@@ -1,0 +1,54 @@
+body {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ff5577;
+}
+.TitleClass {
+  position: relative;
+  top: -15px;
+}
+.PokeDex {
+  background-color: crimson;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  min-height: 45vh;
+  width: 50vh;
+}
+
+#MyInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4vh;
+  border-radius: 0.5rem;
+  border: none;
+  height: 8vh;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  /* 44vh; */
+}
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}
+#searchbtn {
+  background-color: #e1c44d;
+  border: none;
+  border-radius: 0.5rem;
+  /* height: 8vh; */
+  padding: 10px 10px 10px 10px;
+}
+.ImageContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 4vh;
+}
+
+#pokemonImage {
+  height: 150px;
+  width: 150px;
+}
